@@ -1,0 +1,91 @@
+    /* 基础样式 */  
+    body {  
+        font-family: 'Arial', sans-serif;  
+        color: #333;  
+        margin: 0;  
+        padding: 0;  
+        background-color: #f4f4f4;  
+    }
+    body {  
+      /* 设置背景图片，路径请根据实际情况修改 */  
+      background-image: url('2.jpg');  
+        
+      /* 设置背景图片填充方式 */  
+      background-size: cover;  
+        
+      /* 背景图片位置，可根据需要调整 */  
+      background-position: center;  
+        
+      /* 背景图片不平铺 */  
+      background-repeat: no-repeat;  
+        
+      /* 固定背景图片，页面内容滚动时背景不动 */  
+      background-attachment: fixed;
+      /* 设置字体等 */  
+      font-family: Arial, sans-serif;  
+      color: white; /* 假设背景图颜色较深，文字设置为白色 */  
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字阴影效果 */  
+    }     
+      
+    /* 导航栏样式 */  
+    nav {  
+        background-color:  rgba(200, 200,200, 0.5);  
+        color: white;  
+        padding: 10px 0;  
+    }  
+    nav ul {  
+        list-style-type: none;  
+        margin: 0;  
+        padding: 0;  
+        overflow: hidden;  
+    }  
+    nav ul li {  
+        float: left;  
+    }  
+    nav ul li a {  
+        display: block;  
+        color: white;  
+        text-align: center;  
+        padding: 14px 16px;  
+        text-decoration: none;  
+    }  
+      
+    /* 响应式布局 */  
+    @media screen and (max-width: 600px) {  
+        nav ul li {  
+            float: none;  
+            display: block;  
+        }  
+    }  
+      
+    /* 其他栏目样式 */  
+    section {  
+        padding: 20px;  
+    }  
+      
+    /* 图片和链接样式 */  
+    img {  
+        max-width: 100%;  
+        height: auto;  
+    }  
+    a {  
+        color: #3498db;  
+        text-decoration: none;  
+    }  
+    a:hover {  
+        text-decoration: underline;  
+    }  
+      
+    /* 其他基础样式 */  
+    h1, h2 {  
+        color: #3498db;  
+    }  
+    footer {  
+        background-color: rgba(200, 200,200, 0.5);  
+        color: white;  
+        text-align: center;  
+        padding: 10px;  
+        position: fixed;  
+        bottom: 0;  
+        width: 100%;  
+    }  
