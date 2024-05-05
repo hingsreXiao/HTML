@@ -1,0 +1,31 @@
+  /* 其他栏目样式 */  
+    section {  
+        padding: 20px;  
+    }  
+      
+    /* 图片和链接样式 */  
+    img {  
+        max-width: 100%;  
+        height: auto;  
+    }  
+    a {  
+        color: #3498db;  
+        text-decoration: none;  
+    }  
+    a:hover {  
+        text-decoration: underline;  
+    }  
+      
+    /* 其他基础样式 */  
+    h1, h2 {  
+        color: #3498db;  
+    }  
+    footer {  
+        background-color: rgba(225, 225,225, 0.2);  
+        color: white;  
+        text-align: center;  
+        padding: 10px;  
+        position: fixed;  
+        bottom: 0;  
+        width: 100%;  
+    }  
