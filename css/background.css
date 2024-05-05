@@ -1,0 +1,28 @@
+    /* 基础样式 */  
+    body {  
+        font-family: 'Arial', sans-serif;  
+        color: #333;  
+        margin: 0;  
+        padding: 0;  
+        background-color: #f4f4f4;  
+    }
+    body {  
+      /* 设置背景图片， */  
+      background-image: url('3.jpg');  
+        
+      /* 设置背景图片填充方式 */  
+      background-size: cover;  
+        
+      /* 背景图片位置 */  
+      background-position: center;  
+        
+      /* 背景图片不平铺 */  
+      background-repeat: no-repeat;  
+        
+      /* 固定背景图片，页面内容滚动时背景不动 */  
+      background-attachment: fixed;
+      /* 设置字体等 */  
+      font-family: Arial, sans-serif;  
+      color: white; /* 文字设置为白色 */  
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字阴影效果 */  
+    }          
